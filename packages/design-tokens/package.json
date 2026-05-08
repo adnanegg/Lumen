@@ -1,0 +1,15 @@
+{
+  "name": "@lumen/design-tokens",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./theme.css": "./src/theme.css",
+    "./colors.css": "./src/colors.css",
+    "./typography.css": "./src/typography.css",
+    "./spacing.css": "./src/spacing.css",
+    "./shadows.css": "./src/shadows.css",
+    "./radius.css": "./src/radius.css",
+    "./base.css": "./src/base.css"
+  },
+  "files": ["src"]
+}

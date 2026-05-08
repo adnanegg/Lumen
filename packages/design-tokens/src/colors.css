@@ -1,0 +1,110 @@
+/*
+ * Lumen Design Tokens — Color System
+ *
+ * Primary:  Deep muted sage green — operational, calm, trustworthy
+ * Accent:   Warm gold — premium highlights, CTAs
+ * Neutral:  Warm gray — backgrounds, borders, text
+ * Blue:     Restrained system blue — links, informational
+ * Semantic: Success, Warning, Danger mapped to the palette
+ */
+
+@theme {
+  /* ── Primary (Sage Green) ── */
+  --color-primary-50: #f2f5f3;
+  --color-primary-100: #e0e9e2;
+  --color-primary-200: #c2d4c7;
+  --color-primary-300: #9ab9a2;
+  --color-primary-400: #6f9a7a;
+  --color-primary-500: #517f60;
+  --color-primary-600: #3e664c;
+  --color-primary-700: #33523f;
+  --color-primary-800: #2b4234;
+  --color-primary-900: #24372c;
+  --color-primary-950: #131e18;
+
+  /* ── Accent (Warm Gold) ── */
+  --color-accent-50: #fdfaef;
+  --color-accent-100: #f8f0d0;
+  --color-accent-200: #f1de9d;
+  --color-accent-300: #e8c96a;
+  --color-accent-400: #e1b544;
+  --color-accent-500: #d49a28;
+  --color-accent-600: #bc7a1f;
+  --color-accent-700: #9c5a1d;
+  --color-accent-800: #81481f;
+  --color-accent-900: #6b3c1d;
+  --color-accent-950: #3e1e0c;
+
+  /* ── Neutral (Warm Gray) ── */
+  --color-neutral-50: #faf9f7;
+  --color-neutral-100: #f2f1ed;
+  --color-neutral-200: #e5e2db;
+  --color-neutral-300: #d1cdc3;
+  --color-neutral-400: #b5b0a3;
+  --color-neutral-500: #9f9a8b;
+  --color-neutral-600: #8a8474;
+  --color-neutral-700: #726c5f;
+  --color-neutral-800: #5f5a50;
+  --color-neutral-900: #504c44;
+  --color-neutral-950: #2a2824;
+
+  /* ── System Blue (Restrained) ── */
+  --color-blue-50: #f0f5fa;
+  --color-blue-100: #dce7f2;
+  --color-blue-200: #bdd2e8;
+  --color-blue-300: #90b5d8;
+  --color-blue-400: #5d93c4;
+  --color-blue-500: #3d77ae;
+  --color-blue-600: #2e5f93;
+  --color-blue-700: #274d78;
+  --color-blue-800: #244264;
+  --color-blue-900: #223854;
+  --color-blue-950: #162438;
+
+  /* ── Danger (Warm Red) ── */
+  --color-danger-50: #fdf5f4;
+  --color-danger-100: #fce8e5;
+  --color-danger-200: #f9d4cf;
+  --color-danger-300: #f3b3ab;
+  --color-danger-400: #ea877b;
+  --color-danger-500: #dc5f51;
+  --color-danger-600: #c94536;
+  --color-danger-700: #a93729;
+  --color-danger-800: #8c3126;
+  --color-danger-900: #752e25;
+  --color-danger-950: #3f1410;
+
+  /* ── Warning (Amber) ── */
+  --color-warning-50: #fffbeb;
+  --color-warning-100: #fef3c7;
+  --color-warning-200: #fde68a;
+  --color-warning-300: #fcd34d;
+  --color-warning-400: #fbbf24;
+  --color-warning-500: #f59e0b;
+  --color-warning-600: #d97706;
+  --color-warning-700: #b45309;
+  --color-warning-800: #92400e;
+  --color-warning-900: #783712;
+  --color-warning-950: #451a03;
+
+  /* ── Semantic Aliases ── */
+  --color-success: var(--color-primary-500);
+  --color-info: var(--color-blue-500);
+  --color-warn: var(--color-warning-500);
+  --color-error: var(--color-danger-500);
+
+  /* ── Surface & Background (Light Mode) ── */
+  --color-surface: #ffffff;
+  --color-surface-raised: var(--color-neutral-50);
+  --color-surface-overlay: var(--color-neutral-100);
+  --color-background: var(--color-neutral-50);
+  --color-border: var(--color-neutral-200);
+  --color-border-strong: var(--color-neutral-300);
+
+  /* ── Text (Light Mode) ── */
+  --color-text-primary: var(--color-neutral-950);
+  --color-text-secondary: var(--color-neutral-600);
+  --color-text-tertiary: var(--color-neutral-400);
+  --color-text-inverse: #ffffff;
+  --color-text-link: var(--color-blue-600);
+}

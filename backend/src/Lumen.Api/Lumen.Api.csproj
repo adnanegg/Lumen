@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lumen.Application\Lumen.Application.csproj" />
+    <ProjectReference Include="..\Lumen.Infrastructure\Lumen.Infrastructure.csproj" />
+    <ProjectReference Include="..\Lumen.Shared\Lumen.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+/*
+ * Lumen Design Tokens — Shadows
+ *
+ * Subtle, warm-tinted shadows for depth without harshness.
+ * Matches the calm, premium aesthetic.
+ */
+
+@theme {
+  --shadow-xs: 0 1px 2px 0 rgb(42 40 36 / 0.03);
+  --shadow-sm: 0 1px 3px 0 rgb(42 40 36 / 0.06), 0 1px 2px -1px rgb(42 40 36 / 0.04);
+  --shadow-md: 0 4px 6px -1px rgb(42 40 36 / 0.06), 0 2px 4px -2px rgb(42 40 36 / 0.04);
+  --shadow-lg: 0 10px 15px -3px rgb(42 40 36 / 0.06), 0 4px 6px -4px rgb(42 40 36 / 0.04);
+  --shadow-xl: 0 20px 25px -5px rgb(42 40 36 / 0.06), 0 8px 10px -6px rgb(42 40 36 / 0.04);
+  --shadow-2xl: 0 25px 50px -12px rgb(42 40 36 / 0.15);
+  --shadow-inner: inset 0 2px 4px 0 rgb(42 40 36 / 0.04);
+}

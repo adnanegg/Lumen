@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.next/
+out/
+build/
+coverage/
+bin/
+obj/
+.turbo/
+pnpm-lock.yaml
