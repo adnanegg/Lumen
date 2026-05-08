@@ -54,3 +54,6 @@ storybook-static/
 # Misc
 *.tsbuildinfo
 .cache/
+
+# Curriculum (personal learning notes)
+curriculum/
