@@ -9,7 +9,6 @@
  *   @import "@lumen/design-tokens/theme.css";
  */
 
-@import "./fonts.css";
 @import "./colors.css";
 @import "./typography.css";
 @import "./spacing.css";
